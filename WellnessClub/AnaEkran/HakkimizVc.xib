@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HakkimizVc" customModule="WellnessClub" customModuleProvider="target">
+            <connections>
+                <outlet property="detailImage" destination="0rG-cY-4BO" id="oEq-ck-1QR"/>
+                <outlet property="detailImage2" destination="qu2-4q-w0d" id="5d3-0V-QD4"/>
+                <outlet property="detailLabel" destination="afs-d3-OpW" id="1Ug-ca-1eN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J7X-xp-7S5">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ArkaPlan" translatesAutoresizingMaskIntoConstraints="NO" id="PJ5-4w-GaZ">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2000" id="FwN-bu-4bk"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="0rG-cY-4BO">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="400" id="bQ8-sS-Tt9"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wellness Club Nedir ? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afs-d3-OpW">
+                            <rect key="frame" x="0.0" y="400" width="414" height="50"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="6mM-uR-dvJ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0i-TW-t3k">
+                            <rect key="frame" x="0.0" y="450" width="414" height="200"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="200" id="G3P-a9-Hso"/>
+                            </constraints>
+                            <string key="text">Wellness Club, sağlıklı beslenmek ve spor yapmak isteyen insanları bir araya getirir. Sağlıklı yaşam için etkinlikler düzenler ve sağlıklı yaşam mentalitesini insanlara aşılar.</string>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="qu2-4q-w0d">
+                            <rect key="frame" x="0.0" y="650" width="414" height="400"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="400" id="KIi-5c-3iI"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8IH-F5-j26">
+                            <rect key="frame" x="0.0" y="1050" width="414" height="50"/>
+                            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="zz1-g7-8x7"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="qu2-4q-w0d" firstAttribute="top" secondItem="u0i-TW-t3k" secondAttribute="bottom" id="10u-4S-R5Z"/>
+                        <constraint firstItem="qu2-4q-w0d" firstAttribute="trailing" secondItem="u0i-TW-t3k" secondAttribute="trailing" id="2yr-bt-jsE"/>
+                        <constraint firstAttribute="bottom" secondItem="PJ5-4w-GaZ" secondAttribute="bottom" id="Isb-KR-i5w"/>
+                        <constraint firstItem="u0i-TW-t3k" firstAttribute="top" secondItem="afs-d3-OpW" secondAttribute="bottom" id="Kud-z3-u79"/>
+                        <constraint firstItem="8IH-F5-j26" firstAttribute="leading" secondItem="qu2-4q-w0d" secondAttribute="leading" id="SP0-B3-V8t"/>
+                        <constraint firstItem="u0i-TW-t3k" firstAttribute="trailing" secondItem="afs-d3-OpW" secondAttribute="trailing" id="V0Q-dD-Ebe"/>
+                        <constraint firstItem="afs-d3-OpW" firstAttribute="top" secondItem="0rG-cY-4BO" secondAttribute="bottom" id="Xqk-sH-EmV"/>
+                        <constraint firstItem="qu2-4q-w0d" firstAttribute="leading" secondItem="u0i-TW-t3k" secondAttribute="leading" id="Zxh-Av-wlN"/>
+                        <constraint firstItem="8IH-F5-j26" firstAttribute="top" secondItem="qu2-4q-w0d" secondAttribute="bottom" id="a07-08-ZP6"/>
+                        <constraint firstItem="PJ5-4w-GaZ" firstAttribute="top" secondItem="J7X-xp-7S5" secondAttribute="top" id="fu5-EV-mlQ"/>
+                        <constraint firstAttribute="trailing" secondItem="0rG-cY-4BO" secondAttribute="trailing" id="i0O-Ni-3lp"/>
+                        <constraint firstItem="0rG-cY-4BO" firstAttribute="top" secondItem="J7X-xp-7S5" secondAttribute="top" id="kQF-7m-R2z"/>
+                        <constraint firstItem="PJ5-4w-GaZ" firstAttribute="leading" secondItem="J7X-xp-7S5" secondAttribute="leading" id="pQ2-w1-Bpe"/>
+                        <constraint firstItem="0rG-cY-4BO" firstAttribute="leading" secondItem="J7X-xp-7S5" secondAttribute="leading" id="rTq-Kp-Tvf"/>
+                        <constraint firstItem="afs-d3-OpW" firstAttribute="leading" secondItem="J7X-xp-7S5" secondAttribute="leading" id="sEh-yk-Vab"/>
+                        <constraint firstAttribute="trailing" secondItem="PJ5-4w-GaZ" secondAttribute="trailing" id="sQ7-bl-ZZT"/>
+                        <constraint firstItem="8IH-F5-j26" firstAttribute="trailing" secondItem="qu2-4q-w0d" secondAttribute="trailing" id="tx3-p6-hYF"/>
+                        <constraint firstAttribute="trailing" secondItem="afs-d3-OpW" secondAttribute="trailing" id="woV-PU-4YO"/>
+                        <constraint firstItem="u0i-TW-t3k" firstAttribute="leading" secondItem="afs-d3-OpW" secondAttribute="leading" id="xTT-nk-cnw"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="J7X-xp-7S5" secondAttribute="bottom" id="0Px-wx-9SW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="J7X-xp-7S5" secondAttribute="trailing" id="JeA-JV-zEd"/>
+                <constraint firstItem="PJ5-4w-GaZ" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="Ocu-hs-6id"/>
+                <constraint firstItem="J7X-xp-7S5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="TAg-Se-dpg"/>
+                <constraint firstItem="J7X-xp-7S5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kss-rm-tSg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="184.61538461538461" y="175.59241706161137"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ArkaPlan" width="414" height="896"/>
+        <image name="LaunchScreen" width="276" height="597.33331298828125"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

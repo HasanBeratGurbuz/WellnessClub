@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EtkinlikVc" customModule="WellnessClub" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zjn-dw-H7d">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ArkaPlan" translatesAutoresizingMaskIntoConstraints="NO" id="MMf-gY-Tfg">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="5000"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="5000" id="vds-8b-Dv4"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QtY-ve-RIs">
+                            <rect key="frame" x="0.0" y="570.33333333333337" width="414" height="450"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="450" id="BSH-y4-A2P"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SQt-TT-q7r">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="450"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="450" id="fxa-aO-V7h"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQN-hd-vjx">
+                            <rect key="frame" x="0.0" y="500" width="414" height="20.333333333333371"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyo-4o-Qza">
+                            <rect key="frame" x="0.0" y="1083" width="414" height="318"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="DQN-hd-vjx" secondAttribute="trailing" id="33H-dY-0aF"/>
+                        <constraint firstAttribute="bottom" secondItem="MMf-gY-Tfg" secondAttribute="bottom" id="4mS-cY-bkt"/>
+                        <constraint firstItem="MMf-gY-Tfg" firstAttribute="leading" secondItem="Zjn-dw-H7d" secondAttribute="leading" id="78Z-Sc-xYY"/>
+                        <constraint firstItem="DQN-hd-vjx" firstAttribute="top" secondItem="SQt-TT-q7r" secondAttribute="bottom" constant="50" id="94r-mv-gGh"/>
+                        <constraint firstItem="SQt-TT-q7r" firstAttribute="top" secondItem="Zjn-dw-H7d" secondAttribute="top" id="LeC-m2-gSw"/>
+                        <constraint firstAttribute="trailing" secondItem="SQt-TT-q7r" secondAttribute="trailing" id="N4h-zs-9am"/>
+                        <constraint firstItem="MMf-gY-Tfg" firstAttribute="top" secondItem="Zjn-dw-H7d" secondAttribute="top" id="Nhk-eC-0gb"/>
+                        <constraint firstItem="QtY-ve-RIs" firstAttribute="leading" secondItem="Zjn-dw-H7d" secondAttribute="leading" id="QqL-va-GU2"/>
+                        <constraint firstAttribute="trailing" secondItem="MMf-gY-Tfg" secondAttribute="trailing" id="VWY-sO-dFp"/>
+                        <constraint firstItem="SQt-TT-q7r" firstAttribute="leading" secondItem="Zjn-dw-H7d" secondAttribute="leading" id="Xrw-1f-Ze8"/>
+                        <constraint firstItem="QtY-ve-RIs" firstAttribute="top" secondItem="DQN-hd-vjx" secondAttribute="bottom" constant="50" id="cxy-ZH-Njm"/>
+                        <constraint firstAttribute="trailing" secondItem="QtY-ve-RIs" secondAttribute="trailing" id="f2A-sw-hof"/>
+                        <constraint firstItem="DQN-hd-vjx" firstAttribute="leading" secondItem="Zjn-dw-H7d" secondAttribute="leading" id="o8A-GE-ahW"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Zjn-dw-H7d" secondAttribute="bottom" id="8F8-d6-QfE"/>
+                <constraint firstItem="MMf-gY-Tfg" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="8wb-Lh-y5i"/>
+                <constraint firstItem="Zjn-dw-H7d" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="S6m-jo-tZJ"/>
+                <constraint firstItem="Zjn-dw-H7d" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="SAa-v2-JI5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Zjn-dw-H7d" secondAttribute="trailing" id="gGT-jT-pag"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="101.53846153846153" y="-11.374407582938389"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ArkaPlan" width="414" height="896"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

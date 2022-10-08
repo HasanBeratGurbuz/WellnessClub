@@ -9,23 +9,73 @@
 /* Begin PBXBuildFile section */
 		9F133DAC28CE5D4000A89A12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F133DAB28CE5D4000A89A12 /* AppDelegate.swift */; };
 		9F133DAE28CE5D4000A89A12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F133DAD28CE5D4000A89A12 /* SceneDelegate.swift */; };
-		9F133DB028CE5D4000A89A12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F133DAF28CE5D4000A89A12 /* ViewController.swift */; };
 		9F133DB328CE5D4000A89A12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F133DB128CE5D4000A89A12 /* Main.storyboard */; };
 		9F133DB628CE5D4000A89A12 /* WellnessClub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F133DB428CE5D4000A89A12 /* WellnessClub.xcdatamodeld */; };
 		9F133DB828CE5D4000A89A12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F133DB728CE5D4000A89A12 /* Assets.xcassets */; };
 		9F133DBB28CE5D4000A89A12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F133DB928CE5D4000A89A12 /* LaunchScreen.storyboard */; };
+		9F62DD1B28DDD8FB00C4E08E /* KaloriCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F62DD1A28DDD8FB00C4E08E /* KaloriCalculator.swift */; };
+		9F63CB0028DC5861004435DD /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63CAFF28DC5861004435DD /* BMI.swift */; };
+		9F63CB0228DC5A01004435DD /* BMICalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63CB0128DC5A01004435DD /* BMICalculator.swift */; };
+		9F63CB0428DC646D004435DD /* BMICalculatedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63CB0328DC646D004435DD /* BMICalculatedVC.swift */; };
+		9F63CB0628DCCED3004435DD /* KaloriVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63CB0528DCCED3004435DD /* KaloriVc.swift */; };
+		9F63CB0928DCD811004435DD /* ProfileVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63CB0828DCD811004435DD /* ProfileVc.swift */; };
+		9F65209528DB228A0089E80B /* BmiVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65209428DB228A0089E80B /* BmiVc.swift */; };
+		9F6971E528E5FA3F00768578 /* HakkimizVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6971E328E5FA3F00768578 /* HakkimizVc.swift */; };
+		9F6971E628E5FA3F00768578 /* HakkimizVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6971E428E5FA3F00768578 /* HakkimizVc.xib */; };
+		9F6971E928E62F1000768578 /* EtkinlikVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6971E728E62F1000768578 /* EtkinlikVc.swift */; };
+		9F6971EA28E62F1000768578 /* EtkinlikVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6971E828E62F1000768578 /* EtkinlikVc.xib */; };
+		9FAD8C5A28D49293001EE6EC /* AnaSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD8C5928D49293001EE6EC /* AnaSayfa.swift */; };
+		9FAD8C5D28D4954A001EE6EC /* KatagoriTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD8C5B28D4954A001EE6EC /* KatagoriTVC.swift */; };
+		9FAD8C5E28D4954A001EE6EC /* KatagoriTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FAD8C5C28D4954A001EE6EC /* KatagoriTVC.xib */; };
+		9FAD8C6428D51209001EE6EC /* HesaplaVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD8C6328D51209001EE6EC /* HesaplaVc.swift */; };
+		9FB460BE28E6EA1D0077384D /* YagOranVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB460BD28E6EA1D0077384D /* YagOranVc.swift */; };
+		9FB460C028E6F30E0077384D /* YagOranCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB460BF28E6F30E0077384D /* YagOranCalculator.swift */; };
+		9FB460C228E6F58B0077384D /* YagOran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB460C128E6F58B0077384D /* YagOran.swift */; };
+		9FE0CDC228EB2A1900AB2A81 /* YagOranCalculatedVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0CDC128EB2A1900AB2A81 /* YagOranCalculatedVc.swift */; };
+		9FE0CDC428EB4D0200AB2A81 /* SuVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0CDC328EB4D0200AB2A81 /* SuVc.swift */; };
+		9FE0CDC628EB61C500AB2A81 /* SuCalculatedVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0CDC528EB61C500AB2A81 /* SuCalculatedVc.swift */; };
+		9FE0CDC828EB623900AB2A81 /* SuValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0CDC728EB623900AB2A81 /* SuValue.swift */; };
+		9FE0CDCA28EB628B00AB2A81 /* SuCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE0CDC928EB628B00AB2A81 /* SuCalculator.swift */; };
+		9FF6DC0528D253D8003B9B8F /* MainTree_TBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6DC0428D253D8003B9B8F /* MainTree_TBC.swift */; };
+		9FF818B028DF8267008A769C /* KaloriCalculatedVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF818AF28DF8267008A769C /* KaloriCalculatedVc.swift */; };
+		9FF818B228DF8882008A769C /* KaloriIhtiyac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF818B128DF8882008A769C /* KaloriIhtiyac.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F133DA828CE5D4000A89A12 /* WellnessClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellnessClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F133DAB28CE5D4000A89A12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F133DAD28CE5D4000A89A12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9F133DAF28CE5D4000A89A12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F133DB228CE5D4000A89A12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F133DB528CE5D4000A89A12 /* WellnessClub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WellnessClub.xcdatamodel; sourceTree = "<group>"; };
 		9F133DB728CE5D4000A89A12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F133DBA28CE5D4000A89A12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F133DBC28CE5D4000A89A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F62DD1A28DDD8FB00C4E08E /* KaloriCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaloriCalculator.swift; sourceTree = "<group>"; };
+		9F63CAFF28DC5861004435DD /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
+		9F63CB0128DC5A01004435DD /* BMICalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculator.swift; sourceTree = "<group>"; };
+		9F63CB0328DC646D004435DD /* BMICalculatedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatedVC.swift; sourceTree = "<group>"; };
+		9F63CB0528DCCED3004435DD /* KaloriVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaloriVc.swift; sourceTree = "<group>"; };
+		9F63CB0828DCD811004435DD /* ProfileVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVc.swift; sourceTree = "<group>"; };
+		9F65209428DB228A0089E80B /* BmiVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BmiVc.swift; sourceTree = "<group>"; };
+		9F6971E328E5FA3F00768578 /* HakkimizVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HakkimizVc.swift; sourceTree = "<group>"; };
+		9F6971E428E5FA3F00768578 /* HakkimizVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HakkimizVc.xib; sourceTree = "<group>"; };
+		9F6971E728E62F1000768578 /* EtkinlikVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtkinlikVc.swift; sourceTree = "<group>"; };
+		9F6971E828E62F1000768578 /* EtkinlikVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EtkinlikVc.xib; sourceTree = "<group>"; };
+		9FAD8C5928D49293001EE6EC /* AnaSayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfa.swift; sourceTree = "<group>"; };
+		9FAD8C5B28D4954A001EE6EC /* KatagoriTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatagoriTVC.swift; sourceTree = "<group>"; };
+		9FAD8C5C28D4954A001EE6EC /* KatagoriTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KatagoriTVC.xib; sourceTree = "<group>"; };
+		9FAD8C6328D51209001EE6EC /* HesaplaVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesaplaVc.swift; sourceTree = "<group>"; };
+		9FB460BD28E6EA1D0077384D /* YagOranVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YagOranVc.swift; sourceTree = "<group>"; };
+		9FB460BF28E6F30E0077384D /* YagOranCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YagOranCalculator.swift; sourceTree = "<group>"; };
+		9FB460C128E6F58B0077384D /* YagOran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YagOran.swift; sourceTree = "<group>"; };
+		9FE0CDC128EB2A1900AB2A81 /* YagOranCalculatedVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YagOranCalculatedVc.swift; sourceTree = "<group>"; };
+		9FE0CDC328EB4D0200AB2A81 /* SuVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuVc.swift; sourceTree = "<group>"; };
+		9FE0CDC528EB61C500AB2A81 /* SuCalculatedVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuCalculatedVc.swift; sourceTree = "<group>"; };
+		9FE0CDC728EB623900AB2A81 /* SuValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuValue.swift; sourceTree = "<group>"; };
+		9FE0CDC928EB628B00AB2A81 /* SuCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuCalculator.swift; sourceTree = "<group>"; };
+		9FF6DC0428D253D8003B9B8F /* MainTree_TBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTree_TBC.swift; sourceTree = "<group>"; };
+		9FF818AF28DF8267008A769C /* KaloriCalculatedVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaloriCalculatedVc.swift; sourceTree = "<group>"; };
+		9FF818B128DF8882008A769C /* KaloriIhtiyac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaloriIhtiyac.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +108,11 @@
 		9F133DAA28CE5D4000A89A12 /* WellnessClub */ = {
 			isa = PBXGroup;
 			children = (
+				9F6971EC28E632EF00768578 /* Profile */,
+				9F6971EB28E6329F00768578 /* Hesaplayıcı */,
+				9FAD8C5828D47FDC001EE6EC /* AnaEkran */,
 				9F133DAB28CE5D4000A89A12 /* AppDelegate.swift */,
 				9F133DAD28CE5D4000A89A12 /* SceneDelegate.swift */,
-				9F133DAF28CE5D4000A89A12 /* ViewController.swift */,
 				9F133DB128CE5D4000A89A12 /* Main.storyboard */,
 				9F133DB728CE5D4000A89A12 /* Assets.xcassets */,
 				9F133DB928CE5D4000A89A12 /* LaunchScreen.storyboard */,
@@ -68,6 +120,53 @@
 				9F133DB428CE5D4000A89A12 /* WellnessClub.xcdatamodeld */,
 			);
 			path = WellnessClub;
+			sourceTree = "<group>";
+		};
+		9F6971EB28E6329F00768578 /* Hesaplayıcı */ = {
+			isa = PBXGroup;
+			children = (
+				9FAD8C6328D51209001EE6EC /* HesaplaVc.swift */,
+				9F65209428DB228A0089E80B /* BmiVc.swift */,
+				9F63CAFF28DC5861004435DD /* BMI.swift */,
+				9F63CB0128DC5A01004435DD /* BMICalculator.swift */,
+				9F63CB0328DC646D004435DD /* BMICalculatedVC.swift */,
+				9FF818B128DF8882008A769C /* KaloriIhtiyac.swift */,
+				9F62DD1A28DDD8FB00C4E08E /* KaloriCalculator.swift */,
+				9FF818AF28DF8267008A769C /* KaloriCalculatedVc.swift */,
+				9F63CB0528DCCED3004435DD /* KaloriVc.swift */,
+				9FB460C128E6F58B0077384D /* YagOran.swift */,
+				9FB460BF28E6F30E0077384D /* YagOranCalculator.swift */,
+				9FE0CDC128EB2A1900AB2A81 /* YagOranCalculatedVc.swift */,
+				9FB460BD28E6EA1D0077384D /* YagOranVc.swift */,
+				9FE0CDC728EB623900AB2A81 /* SuValue.swift */,
+				9FE0CDC328EB4D0200AB2A81 /* SuVc.swift */,
+				9FE0CDC528EB61C500AB2A81 /* SuCalculatedVc.swift */,
+				9FE0CDC928EB628B00AB2A81 /* SuCalculator.swift */,
+			);
+			path = "Hesaplayıcı";
+			sourceTree = "<group>";
+		};
+		9F6971EC28E632EF00768578 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9F63CB0828DCD811004435DD /* ProfileVc.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9FAD8C5828D47FDC001EE6EC /* AnaEkran */ = {
+			isa = PBXGroup;
+			children = (
+				9FF6DC0428D253D8003B9B8F /* MainTree_TBC.swift */,
+				9F6971E328E5FA3F00768578 /* HakkimizVc.swift */,
+				9F6971E428E5FA3F00768578 /* HakkimizVc.xib */,
+				9F6971E728E62F1000768578 /* EtkinlikVc.swift */,
+				9F6971E828E62F1000768578 /* EtkinlikVc.xib */,
+				9FAD8C5B28D4954A001EE6EC /* KatagoriTVC.swift */,
+				9FAD8C5C28D4954A001EE6EC /* KatagoriTVC.xib */,
+				9FAD8C5928D49293001EE6EC /* AnaSayfa.swift */,
+			);
+			path = AnaEkran;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +228,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F133DBB28CE5D4000A89A12 /* LaunchScreen.storyboard in Resources */,
+				9F6971EA28E62F1000768578 /* EtkinlikVc.xib in Resources */,
+				9F6971E628E5FA3F00768578 /* HakkimizVc.xib in Resources */,
 				9F133DB828CE5D4000A89A12 /* Assets.xcassets in Resources */,
 				9F133DB328CE5D4000A89A12 /* Main.storyboard in Resources */,
+				9FAD8C5E28D4954A001EE6EC /* KatagoriTVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +244,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F133DB628CE5D4000A89A12 /* WellnessClub.xcdatamodeld in Sources */,
-				9F133DB028CE5D4000A89A12 /* ViewController.swift in Sources */,
+				9F65209528DB228A0089E80B /* BmiVc.swift in Sources */,
+				9F63CB0028DC5861004435DD /* BMI.swift in Sources */,
+				9FE0CDC828EB623900AB2A81 /* SuValue.swift in Sources */,
+				9FAD8C5D28D4954A001EE6EC /* KatagoriTVC.swift in Sources */,
+				9F63CB0228DC5A01004435DD /* BMICalculator.swift in Sources */,
+				9FF818B028DF8267008A769C /* KaloriCalculatedVc.swift in Sources */,
 				9F133DAC28CE5D4000A89A12 /* AppDelegate.swift in Sources */,
+				9FF6DC0528D253D8003B9B8F /* MainTree_TBC.swift in Sources */,
+				9FAD8C5A28D49293001EE6EC /* AnaSayfa.swift in Sources */,
+				9FB460C228E6F58B0077384D /* YagOran.swift in Sources */,
+				9F63CB0628DCCED3004435DD /* KaloriVc.swift in Sources */,
+				9F6971E528E5FA3F00768578 /* HakkimizVc.swift in Sources */,
+				9FAD8C6428D51209001EE6EC /* HesaplaVc.swift in Sources */,
+				9F6971E928E62F1000768578 /* EtkinlikVc.swift in Sources */,
+				9F63CB0928DCD811004435DD /* ProfileVc.swift in Sources */,
+				9FF818B228DF8882008A769C /* KaloriIhtiyac.swift in Sources */,
+				9FE0CDCA28EB628B00AB2A81 /* SuCalculator.swift in Sources */,
+				9FE0CDC428EB4D0200AB2A81 /* SuVc.swift in Sources */,
+				9FB460BE28E6EA1D0077384D /* YagOranVc.swift in Sources */,
+				9FE0CDC628EB61C500AB2A81 /* SuCalculatedVc.swift in Sources */,
 				9F133DAE28CE5D4000A89A12 /* SceneDelegate.swift in Sources */,
+				9FE0CDC228EB2A1900AB2A81 /* YagOranCalculatedVc.swift in Sources */,
+				9FB460C028E6F30E0077384D /* YagOranCalculator.swift in Sources */,
+				9F62DD1B28DDD8FB00C4E08E /* KaloriCalculator.swift in Sources */,
+				9F63CB0428DC646D004435DD /* BMICalculatedVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
